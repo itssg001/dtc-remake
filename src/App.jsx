@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-
+import Navbar from './components/Navbar/Navbar';
  const App = () => {
   return (
   
-    <div>app</div>
+    <div>
+      <Navbar />
+    </div>
  
 )
  } 
