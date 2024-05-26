@@ -25,9 +25,10 @@
 }
 .head h3{
     font-size:39px;
+    font-weight:500;
 }
 .head .padding{
-    margin-top:25px;
+    margin-top:15px;
     text-align:center;
     width:80%;
 }
@@ -56,4 +57,29 @@
     color:white;
     border:none;
     cursor:pointer;
+}
+
+
+/* ___Mobile-Screen___ */
+
+@media screen and (max-width: 768px){
+    .hero-werapper{
+        padding:10px;
+    }
+    .head h1{
+        font-size:30px;
+    }
+    .head h3{
+        font-size:22px;
+        font-weight:600;
+    }
+    .head .padding{
+        padding:10px;
+        margin-top:12px;
+        text-align:center;
+        width:100%;
+    }
+    .head .padding p{
+        font-size:16px;
+    }
 }
