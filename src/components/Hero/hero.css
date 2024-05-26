@@ -1,1 +1,59 @@
-/* write css for hero here */
+.hero-wrapper{
+    padding-top:7rem;
+    width:100%;
+    min-height:100vh;
+    background: linear-gradient(to bottom, #E4F8FF, #A8D9EF);
+    
+}
+
+/* .hero-container{
+ 
+} */
+.logo img{
+    height:300px;
+    width:350px;
+}
+
+.head{
+    gap:1.5rem;
+}
+.head h1{
+    font-size:57px;
+    background: linear-gradient(to right, purple, orange);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.head h3{
+    font-size:39px;
+}
+.head .padding{
+    margin-top:25px;
+    text-align:center;
+    width:80%;
+}
+.head .padding p{
+    font-size:20px;
+}
+.member-button{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.member-button button{
+    padding:1rem;
+    width:200px;
+    font-size:20px;
+    border-radius:8px;
+    background:transparent;
+    outline:none;
+    /* border: 1px  solid   linear-gradient(to right, purple, orange); */
+    border:none;
+    transition:all ease 0.5s;
+    box-shadow:0px 0px 7px black;
+}
+.member-button button:hover{
+    background: linear-gradient(to right , purple, orange);
+    transform:scale(1.1);
+    color:white;
+    border:none;
+    cursor:pointer;
+}
