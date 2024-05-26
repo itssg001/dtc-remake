@@ -8,3 +8,10 @@ html, body{
   height:100%;
   width:100%;
 }
+
+.flexCenter{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  /* gap:1.5rem; */
+}
