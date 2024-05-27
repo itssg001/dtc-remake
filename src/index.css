@@ -21,4 +21,19 @@ html, body{
   align-items:center;
   justify-content:center;
 }
-
+.primaryText{
+  font-size:57px;
+  background: linear-gradient(to right, purple, orange);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.secondaryText{
+  font-size:39px;
+  font-weight:500;
+  color:black;
+}
+.paragraph{
+  font-size:20px;
+  color:black;
+  font-weight: 300;
+}
