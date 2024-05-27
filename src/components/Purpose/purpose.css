@@ -1,0 +1,33 @@
+.p-left{
+    height:100%;
+    width:100%;
+    flex:3;
+}
+.p-left img{
+height:100%;
+width:100%;
+}
+.p-right{
+    flex:5;
+     
+}
+.flexCenter{
+    gap:1.5rem;
+}
+.p-right .right-card{
+    width: 90%;
+    padding-left: 0.5rem;
+    padding-right: 0.3rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    background: linear-gradient(to right, rgba(128, 0, 128, 0.7), rgba(255, 165, 0, 0.7));
+    border-radius: 15px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border:1px solid black;
+}
+.p-right:nth-child(n) img{
+  height: 70px;
+  width: 70px;
+  border-radius:50%;
+}

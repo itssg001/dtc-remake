@@ -1,5 +1,5 @@
 .hero-wrapper{
-    padding-top:7rem;
+    padding-top:5rem;
     width:100%;
     min-height:100vh;
     background: linear-gradient(to bottom, #E4F8FF, #A8D9EF);
@@ -10,25 +10,25 @@
  
 } */
 .logo img{
-    height:300px;
-    width:350px;
+    height:270px;
+    width:320px;
 }
 
 .head{
-    gap:1.5rem;
+    gap:0.7rem;
 }
 .head h1{
-    font-size:57px;
+    font-size:54px;
     background: linear-gradient(to right, purple, orange);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .head h3{
-    font-size:39px;
+    font-size:35px;
     font-weight:500;
 }
 .head .padding{
-    margin-top:15px;
+    margin-top:18px;
     text-align:center;
     width:80%;
 }
@@ -36,8 +36,8 @@
     font-size:20px;
 }
 .member-button{
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:30px;
+    margin-bottom:30px;
 }
 .member-button button{
     padding:1rem;
