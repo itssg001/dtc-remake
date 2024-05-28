@@ -24,10 +24,36 @@ width:100%;
     border-radius: 15px;
     margin-top:10px;
     margin-bottom: 10px;
-    border:1px solid black;
+    gap:20px;
 }
 .p-right:nth-child(n) img{
   height: 70px;
   width: 70px;
   border-radius:50%;
+}
+
+/* ___Mobile-Screen___ */
+@media screen and (max-width: 768px) {
+    .p-wrapper .primaryText{
+        font-size: 35px;
+    }
+    .p-wrapper .secondaryText{
+        font-size: 25px;
+    }
+   .p-container{
+    flex-direction:column;
+   } 
+   .p-right .right-card{
+    width: 100%;
+   }
+   .p-right:nth-child(n) img{
+    height:60px;
+    width:60px;
+   }
+   .p-right:nth-child(n) p{
+    font-size: 18px;
+   }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   
 }

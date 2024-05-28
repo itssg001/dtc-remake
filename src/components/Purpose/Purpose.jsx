@@ -16,19 +16,19 @@ const Purpose = () => {
             <img src="./purpose&outlook.jpg" alt="" />
            </div>
            <div className="p-right flexColStart">
-            <div className="flexCenter right-card">
+            <div className="flexStart right-card">
                 <img src="./1.jpg" alt="" />
                 <p className='secondaryText'>Community Building & Networking</p>
             </div>
-            <div className="flexCenter right-card">
+            <div className="flexStart right-card">
                 <img src="./1.jpg" alt="" />
                 <p className='secondaryText'>Interactive Tech Talks & Seminars</p>
             </div>
-            <div className="flexCenter right-card">
+            <div className="flexStart right-card">
                 <img src="./1.jpg" alt="" />
                 <p className='secondaryText'>Hackthons & Coding Competitions</p>
             </div>
-            <div className="flexCenter right-card">
+            <div className="flexStart right-card">
                 <img src="./1.jpg" alt="" />
                 <p className='secondaryText'>Skills Develpment</p>
             </div>
