@@ -1,0 +1,35 @@
+
+ [
+      {
+        "title": "Unlock AI Potential & Machine Learning",
+        "description": "Dive into the world of AI and learn how to build intelligent systems.",
+        "image":"./11.jp"
+      },
+      {
+        "title": "Expand Your Language Skill",
+        "description": "Learn new programming languages and improve your coding abilities.",
+        "image":"./10.jpg"
+      },
+      {
+        "title": "Master Web Development Skills",
+        "description": "Learn the latest web development techniques and frameworks.",
+        "image":"./8.jpg"
+      },
+      {
+        "title": "Explore The Complexities Of Data Science",
+        "description": "Equip vital skills for a successful future in data science.",
+        "image":"./12.jpg"
+      },
+      {
+        "title": "Exciting Game Development",
+        "description": "Gain professional knowledge for App development.",
+        "image":"./14.jpg"
+      },
+      {
+        "title": "Cracking the Code of Security",
+        "description": "Explore the electrifying world of cyber security and ethical hacking.",
+        "image":"./15.jpg"
+      }
+]
+  
+  
