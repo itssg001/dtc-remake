@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Purpose from './components/Purpose/Purpose';
+import Communities from './components/Communities/Communities';
  const App = () => {
   return (
   
@@ -10,6 +11,7 @@ import Purpose from './components/Purpose/Purpose';
       
       <Hero />
       <Purpose />
+      <Communities />
     </div>
  
 )
