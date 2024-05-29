@@ -15,6 +15,7 @@
     position:fixed;
     box-shadow: 0px 0px 6px lightgrey;
     margin-top:6.5rem;
+    z-index:99;
 }
 .nav{
     gap:4rem;
