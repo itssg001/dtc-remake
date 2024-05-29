@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Purpose from './components/Purpose/Purpose';
 import Communities from './components/Communities/Communities';
+import About from './components/About/About';
 
  const App = () => {
   return (
@@ -13,6 +14,7 @@ import Communities from './components/Communities/Communities';
       <Hero />
       <Purpose />
       <Communities />
+      <About />
     </div>
  
 )
