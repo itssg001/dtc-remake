@@ -10,6 +10,7 @@ const About = () => {
             <h4 className="secondaryText">
                 "Learn Together - Grow Together"
             </h4>
+            <img src="./logo.png" height={200} width={200} alt="" />
         </div>
         <div className=" paddings a-container">
             <div className="flexCenter">
@@ -18,7 +19,10 @@ const About = () => {
 
 Our vision extends beyond technology alone. We're laying the foundation for a diverse club that embraces students with various interests, creating a familial atmosphere that not only propels academic achievement but also nurtures practical skills and unleashes creativity. In this vibrant space, our planned activities, from workshops to excursions and service projects, promise students a holistic experience that transcends the confines of traditional learning.
             </p>    
-            </div>           
+            </div> 
+            <div className="button">
+            <a href="#"><button>Know More</button></a>
+            </div>          
         </div>
     </section>
   )

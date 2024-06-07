@@ -1,0 +1,62 @@
+.section-heading{
+    position: relative;
+}
+
+.section-heading img{
+    position:absolute;
+    right:100px;
+    top:2px;
+    transform: rotate(-30deg);
+}
+
+.button a button{
+    width:400px;
+    padding:12px;
+    margin-top: 2rem;
+    border:none;
+    outline:none;
+    background-color: rgba(70, 143, 211, 0.606);
+    border-radius: 12px;
+}
+
+.button a button:hover{
+    background-color: rgb(70, 143, 211) ;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .a-wrapper{
+        padding: 1.5rem;
+    }
+    .button a button{
+        width:300px;
+        padding:12px;
+        margin-top: 2rem;
+        border:none;
+        outline:none;
+        background-color: rgba(70, 143, 211, 0.606);
+        border-radius: 12px;
+    }
+    .section-heading img{
+     display:none;
+    }
+} 
+
+/* do it later  */
+
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .a-wrapper{
+        padding: 1.5rem;
+    }
+    .button a button{
+        width:300px;
+        padding:12px;
+        margin-top: 2rem;
+        border:none;
+        outline:none;
+        background-color: rgba(70, 143, 211, 0.606);
+        border-radius: 12px;
+    }
+    .section-heading img{
+     display:none;
+    }
+} */
