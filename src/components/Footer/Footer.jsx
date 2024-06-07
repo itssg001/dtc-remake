@@ -3,7 +3,7 @@ import './footer.css'
 const Footer = () => {
   return (
   <section className="f-wrapper">
-    <div className="f-container flexCenter">
+    <div className="f-container ">
       <div className="contact flexColStart">
           <h4 className='secondaryText'>Contact</h4>
           <span><strong>Email:</strong>dragonflytechclub@gmail.com</span>
@@ -20,7 +20,16 @@ const Footer = () => {
          <a href="#"><span>Game Development</span></a>
          <a href="#"><span>Cyber Security</span></a>
       </div>
+      <div className="scanner">
+        <h4 className="secondaryText">
+          Scan For Events
+        </h4>
+        <img src="2.png" height={100}   width={100} alt="" />
+      </div>
     </div>
+    <br />
+    <hr />
+     <h5 className='copyright'>2024@ All Copyrights Reserved</h5>
   </section>
   )
 }
