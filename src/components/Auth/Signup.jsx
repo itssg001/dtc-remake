@@ -7,7 +7,7 @@ const Signup = () => {
     <Navbar />  
     <section className="signup">
         <div className="signup-container">
-            SignUp
+           <h1>Signup</h1>
         </div>
     </section>
     </>
